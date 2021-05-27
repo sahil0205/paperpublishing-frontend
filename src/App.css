@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.body-bg{
+  background-color: whitesmoke;
+}
+
+.container-fluid {
+  padding-right:0;
+  padding-left:0;
+  margin-right:0;
+  margin-left:0;
+}
+
+.card{
+  margin-left: 3ch;
+  margin-right: 3ch;
+  margin-top: 70px;
+  width: 550px;
+}
+
+.form-container{
+  justify-content: center;
+}
+
+.second-navbar-container{
+  background-color: #ebe06a;
+  width:100%;
+}
+
+.second-nav-userdir{
+  border: none;
+  background-color: inherit;
+}
+
+.user-row{
+  margin-top: 2ch;
+  padding-top: 2ch; 
+}
+
+.user-img{
+  padding: 5px;
+}
+
+.user-table{
+  max-width: 108ch;
+  vertical-align: middle;
+}
+
+.update-card{
+  align-self: center;
+}
+
+.cat-home-btn{
+  margin-top: 10ch;
+  justify-content: center;
+  padding-left: 15ch;
+  padding-right: 15ch;
+}
+
+.btn-cat{
+  margin-bottom: 3ch;
+  margin-top: 7ch;
+}
+
+.cat-btn{
+  margin-bottom: 12.5ch;
+}
+
+.cat-table{
+  padding-right: 5ch;
+  padding-left: 5ch;
+  padding-top: 10ch;
+}
+
+.add-cat-btn{
+  margin-top: 2ch;
+  margin-bottom: 1ch;
+}
+
+.add-cat-card{
+  margin-bottom: 17ch;
+}
+
+.news-table{
+  
+  padding-right: 5ch;
+  padding-left: 5ch;
+  padding-top: 8ch;
+  margin-bottom: 25ch;
+}
+
+.add-news-card{
+  width:fit-content;
+  margin-bottom: 5ch;
+}
+
+.paper-table{
+  padding-right: 5ch;
+  padding-left: 5ch;
+  padding-top: 8ch;
+  margin-bottom: 32ch;
+}
+
+.pap-table{
+  max-width: 50ch;
+}
+
+.viewpap-table{
+  padding-right: 5ch;
+  padding-left: 5ch;
+  padding-top: 8ch;
+  margin-bottom: 35ch;
+}
+
+.news-paper-table{
+  
+  padding-right: 3ch;
+  padding-left: 2ch;
+  padding-top: 8ch;
+  margin-bottom: 25ch;
+}

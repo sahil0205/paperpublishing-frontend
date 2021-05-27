@@ -1,0 +1,76 @@
+.navbar {
+    background-color:black; 
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;    
+    z-index: 999;
+    margin-left: 0ch;
+  }
+
+  .navbar-container {
+   
+    display: flex;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+  }
+
+  .navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .fa-typo3 {
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .container{
+      margin: 0ch;
+      padding: 0ch;
+      overflow: hidden;
+  }
+
+  .btn-container{
+    margin-left: 0;
+  }
+
+  .login-container{
+    width: 100%;
+  }
+
+  .loginpage-home-btn{
+    margin-left: 113ch;
+  }
+
+  .aboutus-btn-container{
+    margin-right: 2ch;
+    margin-left: 100ch;
+    border: none;
+  }
+
+  .a:link{
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .a:visited{
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .afterlogin-btn{
+    margin-left: 100ch;
+    
+  }
